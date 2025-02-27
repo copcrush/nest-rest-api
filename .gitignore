@@ -54,3 +54,12 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# PM2 process files
+pm2.log
+pm2.pid
+pm2-dump.json
+
+# Docker
+docker-compose.override.yml
+docker-compose.prod.yml
