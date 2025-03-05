@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { TransactionsService } from './transactions.service';
+import { TransactionsService } from 'src/services/transactions/transactions.service';
 
 @Controller('transactions')
 export class TransactionsController {
@@ -10,4 +10,3 @@ export class TransactionsController {
     return this.transactionsService.getTransactions();
   }
 }
-
